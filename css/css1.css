@@ -1,10 +1,4 @@
-body, html{
-}
-
 @media (max-device-width: 412px) {
-	body, html{
-	overflow-x:hidden;
-	}
 	.projects-header{
 		font-size: 12pt;
 	}
