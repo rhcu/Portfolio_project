@@ -1,59 +1,59 @@
-@media (max-device-width: 412px) {
-	.projects-header{
+@media (max-width: 412px) {
+	.projects-header {
 		font-size: 12pt;
 	}
-	.project-name{
+	.project-name {
 		font-size: 12pt;
 	}
-	.project-link{
+	.project-link {
 		font-size: 10pt;
 	}
-	.container{
+	.container {
 		display: flex;
 		flex-direction: row;
 		justify-content:space-between;
 		flex-wrap: wrap;
 	}
-	.title-text{
+	.title-text {
 		font-size: 12pt;
 		width: 80%;
 		text-align: right;
 	}
-	.image{
+	.image {
 		width: 20%;
 		height: 30%;
 	}
 }
 
-@media (max-device-width: 300px) {
-	.title-text{
+@media (max-width: 300px) {
+	.title-text {
 		font-size: 10pt;
 	}
-	.projects-header{
+	.projects-header {
 		font-size: 15pt;
 	}
-	.project-name{
+	.project-name {
 		font-size: 10pt;
 	}
-	.project-link{
+	.project-link {
 		font-size: 10pt;
 	}
-	.container{
+	.container {
 		display: flex;
 		flex-direction: column;
 	}
 }
- @media (min-device-width: 413px) {
-	.title-text{
+ @media (min-width: 413px) {
+	.title-text {
 		font-size: 20pt;
 	}
-	.projects-header{
+	.projects-header {
 		font-size: 30pt;
 	}
-	.project-name{
+	.project-name {
 		font-size: 21pt;
 	}
-	.project-link{
+	.project-link {
 		font-size: 19pt;
 	}
 }
@@ -67,7 +67,7 @@
 .image {
 	width: 20%;
 }
-.container{
+.container {
 	width: 100%;
 	display:flex;	
 	justify-content:space-between;
@@ -75,17 +75,18 @@
 }
 .project {
 	width:32%;
+	text-align:center;
 }
-.projects-header{
+.projects-header {
 	color: #7d97ad;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-.project-name{
+.project-name {
 	color: #2d3c49;
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-.project-link{
+.project-link {
 	color: #2d3c49;
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
