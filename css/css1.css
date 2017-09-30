@@ -46,6 +46,8 @@
  @media (min-width: 413px) {
 	.title-text {
 		font-size: 20pt;
+		color: #2d3c49;
+		text-align:right;
 	}
 	.projects-header {
 		font-size: 30pt;
